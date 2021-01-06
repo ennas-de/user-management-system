@@ -7,6 +7,7 @@ from django.contrib.auth.models import User, Permission, Group
 from django.contrib import messages
 from .models import Post
 
+# user authentication
 '''
 user = authenticate(request, username=username, password=password)
 if user is not None:
